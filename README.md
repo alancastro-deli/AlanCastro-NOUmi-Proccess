@@ -61,7 +61,7 @@ Sigue los pasos a continuación para ejecutar el proyecto de manera local:
 
 ```bash
 git clone https://github.com/alancastro-deli/AlanCastro-NOUmi-Proccess.git
-cd tu-repositorio
+cd AlanCastro-NOUmi-Proccess
 composer install
 cp .env.example .env
 php artisan key:generate
