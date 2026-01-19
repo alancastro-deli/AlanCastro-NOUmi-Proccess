@@ -54,13 +54,14 @@ El objetivo principal del sistema es proporcionar una herramienta eficiente para
 
 Sigue los pasos a continuación para ejecutar el proyecto de manera local:
 
-git clone https://github.com/tu-usuario/tu-repositorio.git  
-cd tu-repositorio  
-composer install  
-cp .env.example .env  
-php artisan key:generate  
-php artisan migrate  
-php artisan serve  
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
 
 ## Licencia
 
