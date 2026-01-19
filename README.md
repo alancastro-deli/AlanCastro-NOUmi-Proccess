@@ -55,7 +55,7 @@ El objetivo principal del sistema es proporcionar una herramienta eficiente para
 Sigue los pasos a continuación para ejecutar el proyecto de manera local:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/alancastro-deli/AlanCastro-NOUmi-Proccess.git
 cd tu-repositorio
 composer install
 cp .env.example .env
