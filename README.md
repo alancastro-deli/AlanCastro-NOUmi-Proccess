@@ -62,7 +62,3 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
-
-## Licencia
-
-Este proyecto ha sido desarrollado utilizando el framework Laravel, el cual es software de código abierto y se distribuye bajo la licencia MIT.
