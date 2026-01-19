@@ -19,6 +19,11 @@ Este proyecto es un sistema de gestión de inventarios desarrollado con el frame
 
 La aplicación permite llevar un control ordenado de los artículos disponibles, registrar entradas y salidas, así como mantener actualizada la información relacionada con existencias, categorías y estados de los productos. De esta manera, el sistema ayuda a optimizar la administración del inventario y a reducir errores en el manejo manual de la información.
 
+## Diagrama de Funcionamiento del Sistema
+<p align="center">
+  <img src="Diagrama.png" width="700" alt="Diagrama de Funcionamiento del Sistema">
+</p>
+
 ## Funcionalidades Principales
 
 - Registro, edición y eliminación de productos.
