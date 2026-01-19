@@ -15,9 +15,9 @@
 
 ## Descripción del Proyecto
 
-Este proyecto es un **sistema de gestión de inventarios desarrollado con el framework Laravel**, cuyo objetivo principal es **administrar, controlar y dar seguimiento a los productos almacenados** dentro de una organización o negocio.
+Este proyecto es un sistema de gestión de inventarios desarrollado con el framework Laravel, cuyo objetivo principal es administrar, controlar y dar seguimiento a los productos almacenados dentro de una organización o negocio.
 
-La aplicación permite llevar un control ordenado de los artículos disponibles, registrar entradas y salidas, así como mantener actualizada la información relacionada con existencias, categorías y estados de los productos. De esta manera, el sistema ayuda a optimizar la administración del inventario y a reducir errores en el manejo manual de información.
+La aplicación permite llevar un control ordenado de los artículos disponibles, registrar entradas y salidas, así como mantener actualizada la información relacionada con existencias, categorías y estados de los productos. De esta manera, el sistema ayuda a optimizar la administración del inventario y a reducir errores en el manejo manual de la información.
 
 ## Funcionalidades Principales
 
@@ -33,26 +33,35 @@ La aplicación permite llevar un control ordenado de los artículos disponibles,
 
 El proyecto fue desarrollado utilizando las siguientes tecnologías:
 
-- **Laravel** como framework backend.
-- **PHP** para la lógica del servidor.
-- **MySQL** (u otro gestor compatible) para la base de datos.
-- **Blade** para la generación de vistas.
-- **HTML, CSS y JavaScript** para la interfaz de usuario.
+- Laravel como framework backend.
+- PHP para la lógica del servidor.
+- MySQL u otro gestor de base de datos compatible.
+- Blade como motor de plantillas.
+- HTML, CSS y JavaScript para la interfaz de usuario.
 
-Laravel facilita el desarrollo gracias a su estructura MVC, su ORM Eloquent y sus herramientas integradas para el manejo de rutas, controladores y migraciones.
+Laravel facilita el desarrollo gracias a su arquitectura MVC, su ORM Eloquent y sus herramientas integradas para el manejo de rutas, controladores y migraciones.
 
 ## Objetivo del Sistema
 
-El objetivo principal del sistema es **proporcionar una herramienta eficiente para la administración de inventarios**, permitiendo al usuario:
+El objetivo principal del sistema es proporcionar una herramienta eficiente para la administración de inventarios, permitiendo al usuario:
 
-- Tener información confiable y actualizada.
-- Mejorar el control de productos.
+- Contar con información confiable y actualizada.
+- Mejorar el control y organización de los productos.
 - Facilitar la toma de decisiones.
 - Reducir pérdidas y errores administrativos.
 
 ## Instalación y Ejecución
 
-1. Clonar el repositorio.
-2. Instalar dependencias con Composer:
-   ```bash
-   composer install
+Sigue los pasos a continuación para ejecutar el proyecto de manera local:
+
+git clone https://github.com/tu-usuario/tu-repositorio.git  
+cd tu-repositorio  
+composer install  
+cp .env.example .env  
+php artisan key:generate  
+php artisan migrate  
+php artisan serve  
+
+## Licencia
+
+Este proyecto ha sido desarrollado utilizando el framework Laravel, el cual es software de código abierto y se distribuye bajo la licencia MIT.
